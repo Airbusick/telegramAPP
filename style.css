@@ -1,0 +1,40 @@
+/* style.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Фон за пределами контейнера */
+}
+
+.page-container {
+    width: 2000px; /* Ширина в формате 4:3 */
+    height: 1050px; /* Высота в формате 4:3 */
+    position: relative;
+    overflow: hidden; /* Убираем лишние элементы за пределами контейнера */
+    background-image: url('file:///C:/Users/semen/Downloads/tg+web/web/img/maxresdefault-_1_.png'); /* Новый путь к изображению */
+    background-size: cover; /* Растягиваем фон на весь контейнер */
+    background-position: center; /* Центрируем фон */
+    background-repeat: no-repeat; /* Убираем повторение фона */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper {
+    display: inline-block; /* Чтобы контейнер соответствовал размеру кнопки */
+    overflow: hidden; /* Обрезаем лишнее */
+    position: relative; /* Для позиционирования iframe */
+    width: 301px; /* Ширина iframe минус 10 пикселей */
+}
+
+iframe {
+    border: none; /* Убираем границу */
+    display: block; /* Убираем лишние отступы */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем отступы */
+    background-color: transparent; /* Прозрачный фон */
+    position: relative; /* Для обрезки */
+    left: -10px; /* Сдвигаем iframe влево на 10 пикселей */
+}
