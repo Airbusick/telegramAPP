@@ -13,7 +13,7 @@ body, html {
     height: 1050px; /* Высота в формате 4:3 */
     position: relative;
     overflow: hidden; /* Убираем лишние элементы за пределами контейнера */
-    background-image: url('file:///C:/Users/semen/Downloads/tg+web/web/img/maxresdefault-_1_.png'); /* Новый путь к изображению */
+    background-image: url('img/maxresdefault-_1_.png'); /* Относительный путь к изображению */
     background-size: cover; /* Растягиваем фон на весь контейнер */
     background-position: center; /* Центрируем фон */
     background-repeat: no-repeat; /* Убираем повторение фона */
